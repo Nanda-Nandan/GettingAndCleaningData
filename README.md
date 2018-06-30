@@ -1,11 +1,11 @@
-Getting and Cleaning Data - Coursera Project
+#Getting and Cleaning Data - Coursera Project
 
 The R script run_analysis.R can be used to create the data set. It retrieves the source data set and transforms it to produce
- the final data set by implementing the following steps (see the Code book for details, as well as the comments in the script
- itself):
+the final data set by implementing the following steps (see the Code book for details, as well as the comments in the script
+itself):
 
-1.Download the dataset if it does not already exist in the working directory
-2.Load the label and feature info
+*1.Download the dataset if it does not already exist in the working directory
+*2.Load the label and feature info
 3.Loads both the training and test datasets, keeping only those columns which reflect a mean or standard deviation
 4.Loads the activity and subject data for each dataset, and merges those columns with the dataset
 5.Merges the two datasets
